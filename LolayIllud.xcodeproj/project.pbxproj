@@ -47,6 +47,7 @@
 		4E6AAE5F222A3D1100EA9CFF /* LolayIlludTests.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = LolayIlludTests.strings; sourceTree = "<group>"; };
 		4E6AAE65222C566100EA9CFF /* LolayLocalizedUITextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LolayLocalizedUITextFieldTests.swift; sourceTree = "<group>"; };
 		4E6AAE67222C61BC00EA9CFF /* LolayLocalizedUIButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LolayLocalizedUIButtonTests.swift; sourceTree = "<group>"; };
+		4E6AAE69222C642500EA9CFF /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +72,7 @@
 		4E6AAE2C222A326200EA9CFF = {
 			isa = PBXGroup;
 			children = (
+				4E6AAE69222C642500EA9CFF /* README */,
 				4E6AAE38222A326200EA9CFF /* LolayIllud */,
 				4E6AAE43222A326300EA9CFF /* LolayIlludTests */,
 				4E6AAE37222A326200EA9CFF /* Products */,
