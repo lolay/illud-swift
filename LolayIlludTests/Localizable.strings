@@ -1,0 +1,10 @@
+"LolayLocalizableTests.testString" = "abc";
+"LolayLocalizedUILabelTests.testLabel" = "abc";
+"LolayLocalizedUITextFieldTests.testLabel" = "abc";
+"LolayLocalizedUIbuttonTests.applicationTitle" = "abc-application";
+"LolayLocalizedUIbuttonTests.disabledTitle" = "abc-disabled";
+"LolayLocalizedUIbuttonTests.focusedTitle" = "abc-focused";
+"LolayLocalizedUIbuttonTests.highlightedTitle" = "abc-highlighted";
+"LolayLocalizedUIbuttonTests.normalTitle" = "abc-normal";
+"LolayLocalizedUIbuttonTests.reservedTitle" = "abc-reserved";
+"LolayLocalizedUIbuttonTests.selectedTitle" = "abc-selected";
