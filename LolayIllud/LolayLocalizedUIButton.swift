@@ -14,8 +14,8 @@
 //  limitations under the License.
 //
 
-@IBDesignable class LolayLocalizedUIButton: UIButton {
-    internal func localize() {
+@IBDesignable public class LolayLocalizedUIButton: UIButton {
+    func localize() {
         for stateTitle in [(UIControl.State.application, self.applicationTitleKey), (.disabled, self.disabledTitleKey), (.focused, self.focusedTitleKey), (.highlighted, self.highlightedTitleKey), (.normal, self.normalTitleKey), (.reserved, self.reservedTitleKey), (.selected, self.selectedTitleKey)] {
             
             guard stateTitle.1 != nil else { continue }
@@ -34,7 +34,7 @@
     /**
      Localized key that will replace the text
      */
-    @IBInspectable var applicationTitleKey: String? {
+    @IBInspectable public var applicationTitleKey: String? {
         didSet {
             localize()
         }
@@ -43,7 +43,7 @@
     /**
      Localized key that will replace the text
      */
-    @IBInspectable var disabledTitleKey: String? {
+    @IBInspectable public var disabledTitleKey: String? {
         didSet {
             localize()
         }
@@ -52,7 +52,7 @@
     /**
      Localized key that will replace the text
      */
-    @IBInspectable var focusedTitleKey: String? {
+    @IBInspectable public var focusedTitleKey: String? {
         didSet {
             localize()
         }
@@ -61,7 +61,7 @@
     /**
      Localized key that will replace the text
      */
-    @IBInspectable var highlightedTitleKey: String? {
+    @IBInspectable public var highlightedTitleKey: String? {
         didSet {
             localize()
         }
@@ -70,7 +70,7 @@
     /**
      Localized key that will replace the text
      */
-    @IBInspectable var normalTitleKey: String? {
+    @IBInspectable public var normalTitleKey: String? {
         didSet {
             localize()
         }
@@ -79,7 +79,7 @@
     /**
      Localized key that will replace the text
      */
-    @IBInspectable var reservedTitleKey: String? {
+    @IBInspectable public var reservedTitleKey: String? {
         didSet {
             localize()
         }
@@ -88,7 +88,7 @@
     /**
      Localized key that will replace the text
      */
-    @IBInspectable var selectedTitleKey: String? {
+    @IBInspectable public var selectedTitleKey: String? {
         didSet {
             localize()
         }
@@ -97,13 +97,13 @@
     /**
      tableName to be used for localization
      */
-    @IBInspectable var tableName: String? {
+    @IBInspectable public var tableName: String? {
         didSet {
             localize()
         }
     }
     
-    @IBOutlet var bundle: Bundle? {
+    @IBOutlet public var bundle: Bundle? {
         didSet {
             localize()
         }
