@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E58D8AF222D06EC00666395 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4E58D8AE222D06EC00666395 /* README.md */; };
+		4E58D8B1222D06F300666395 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4E58D8B0222D06F300666395 /* LICENSE */; };
 		4E6AAE40222A326300EA9CFF /* LolayIllud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6AAE36222A326200EA9CFF /* LolayIllud.framework */; };
 		4E6AAE47222A326300EA9CFF /* LolayIllud.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E6AAE39222A326200EA9CFF /* LolayIllud.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E6AAE51222A330300EA9CFF /* LolayLocalizedUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AAE50222A330300EA9CFF /* LolayLocalizedUILabel.swift */; };
@@ -32,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E58D8AE222D06EC00666395 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4E58D8B0222D06F300666395 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4E6AAE36222A326200EA9CFF /* LolayIllud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LolayIllud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E6AAE39222A326200EA9CFF /* LolayIllud.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LolayIllud.h; sourceTree = "<group>"; };
 		4E6AAE3A222A326200EA9CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,7 +51,6 @@
 		4E6AAE5F222A3D1100EA9CFF /* LolayIlludTests.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = LolayIlludTests.strings; sourceTree = "<group>"; };
 		4E6AAE65222C566100EA9CFF /* LolayLocalizedUITextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LolayLocalizedUITextFieldTests.swift; sourceTree = "<group>"; };
 		4E6AAE67222C61BC00EA9CFF /* LolayLocalizedUIButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LolayLocalizedUIButtonTests.swift; sourceTree = "<group>"; };
-		4E6AAE69222C642500EA9CFF /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +75,8 @@
 		4E6AAE2C222A326200EA9CFF = {
 			isa = PBXGroup;
 			children = (
-				4E6AAE69222C642500EA9CFF /* README */,
+				4E58D8B0222D06F300666395 /* LICENSE */,
+				4E58D8AE222D06EC00666395 /* README.md */,
 				4E6AAE38222A326200EA9CFF /* LolayIllud */,
 				4E6AAE43222A326300EA9CFF /* LolayIlludTests */,
 				4E6AAE37222A326200EA9CFF /* Products */,
@@ -207,6 +211,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E58D8B1222D06F300666395 /* LICENSE in Resources */,
+				4E58D8AF222D06EC00666395 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
