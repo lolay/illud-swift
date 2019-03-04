@@ -2,3 +2,4 @@ language: swift
 xcode_project: LolayIllud.xcodeproj
 xcode_scheme: LolayIllud
 xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone X
+xcode_sdk=iphonesimulator12.1
