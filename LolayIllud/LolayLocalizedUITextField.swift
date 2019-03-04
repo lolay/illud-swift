@@ -14,8 +14,8 @@
 //  limitations under the License.
 //
 
-@IBDesignable class LolayLocalizedUITextField: UITextField {
-    internal func localize() {
+@IBDesignable public class LolayLocalizedUITextField: UITextField {
+    func localize() {
         guard self.textKey != nil else { return }
         
         if self.bundle != nil {
@@ -28,7 +28,7 @@
     /**
      Localized key that will replace the text
      */
-    @IBInspectable var textKey: String? {
+    @IBInspectable public var textKey: String? {
         didSet {
             localize()
         }
@@ -37,13 +37,13 @@
     /**
      tableName to be used for localization
      */
-    @IBInspectable var tableName: String? {
+    @IBInspectable public var tableName: String? {
         didSet {
             localize()
         }
     }
     
-    @IBOutlet var bundle: Bundle? {
+    @IBOutlet public var bundle: Bundle? {
         didSet {
             localize()
         }

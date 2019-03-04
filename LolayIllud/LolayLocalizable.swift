@@ -14,13 +14,13 @@
 //  limitations under the License.
 //
 
-protocol LolayLocalizable {
+public protocol LolayLocalizable {
     var tableName: String { get }
     var localized: String { get }
 }
 
-extension String {
-    func localized(bundle: Bundle = .main, tableName: String = "Localizable", comment: String = "") -> String {
+public extension String {
+    public func localized(bundle: Bundle = .main, tableName: String = "Localizable", comment: String = "") -> String {
         return NSLocalizedString(self, tableName: tableName, bundle: bundle, value: "**\(self)**", comment: comment)
     }
 }
