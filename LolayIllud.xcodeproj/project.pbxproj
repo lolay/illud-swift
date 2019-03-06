@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02EA8475C76EAABCA73C1E73 /* libPods-LolayIlludTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CEBAC97A24B58DE5B400889 /* libPods-LolayIlludTests.a */; };
 		4E6AAE40222A326300EA9CFF /* LolayIllud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6AAE36222A326200EA9CFF /* LolayIllud.framework */; };
 		4E6AAE47222A326300EA9CFF /* LolayIllud.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E6AAE39222A326200EA9CFF /* LolayIllud.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E6AAE51222A330300EA9CFF /* LolayLocalizedUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AAE50222A330300EA9CFF /* LolayLocalizedUILabel.swift */; };
@@ -19,6 +20,7 @@
 		4E6AAE60222A3D1100EA9CFF /* LolayIlludTests.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E6AAE5F222A3D1100EA9CFF /* LolayIlludTests.strings */; };
 		4E6AAE66222C566100EA9CFF /* LolayLocalizedUITextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AAE65222C566100EA9CFF /* LolayLocalizedUITextFieldTests.swift */; };
 		4E6AAE68222C61BC00EA9CFF /* LolayLocalizedUIButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AAE67222C61BC00EA9CFF /* LolayLocalizedUIButtonTests.swift */; };
+		D725295048CB399952601098 /* libPods-LolayIllud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E5290E6DC2A71944E9C6B0 /* libPods-LolayIllud.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		125B258B212C0BEB8CCEA423 /* Pods-LolayIlludTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LolayIlludTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LolayIlludTests/Pods-LolayIlludTests.release.xcconfig"; sourceTree = "<group>"; };
+		3CEBAC97A24B58DE5B400889 /* libPods-LolayIlludTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LolayIlludTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E58D8AE222D06EC00666395 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4E58D8B0222D06F300666395 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4E6AAE36222A326200EA9CFF /* LolayIllud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LolayIllud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +53,10 @@
 		4E6AAE5F222A3D1100EA9CFF /* LolayIlludTests.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = LolayIlludTests.strings; sourceTree = "<group>"; };
 		4E6AAE65222C566100EA9CFF /* LolayLocalizedUITextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LolayLocalizedUITextFieldTests.swift; sourceTree = "<group>"; };
 		4E6AAE67222C61BC00EA9CFF /* LolayLocalizedUIButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LolayLocalizedUIButtonTests.swift; sourceTree = "<group>"; };
+		4F38F2903F5B44B8F6EA80B4 /* Pods-LolayIllud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LolayIllud.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LolayIllud/Pods-LolayIllud.debug.xcconfig"; sourceTree = "<group>"; };
+		7731C2A884227E81779D0E32 /* Pods-LolayIlludTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LolayIlludTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LolayIlludTests/Pods-LolayIlludTests.debug.xcconfig"; sourceTree = "<group>"; };
+		89F728F0EBF541E0140384FE /* Pods-LolayIllud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LolayIllud.release.xcconfig"; path = "Pods/Target Support Files/Pods-LolayIllud/Pods-LolayIllud.release.xcconfig"; sourceTree = "<group>"; };
+		B5E5290E6DC2A71944E9C6B0 /* libPods-LolayIllud.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LolayIllud.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D725295048CB399952601098 /* libPods-LolayIllud.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,12 +73,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E6AAE40222A326300EA9CFF /* LolayIllud.framework in Frameworks */,
+				02EA8475C76EAABCA73C1E73 /* libPods-LolayIlludTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0995EE5B73183C8D7CDB546D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5E5290E6DC2A71944E9C6B0 /* libPods-LolayIllud.a */,
+				3CEBAC97A24B58DE5B400889 /* libPods-LolayIlludTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4E6AAE2C222A326200EA9CFF = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +97,8 @@
 				4E6AAE38222A326200EA9CFF /* LolayIllud */,
 				4E6AAE43222A326300EA9CFF /* LolayIlludTests */,
 				4E6AAE37222A326200EA9CFF /* Products */,
+				9B37BDBF7D89927A22D134AB /* Pods */,
+				0995EE5B73183C8D7CDB546D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +138,17 @@
 			path = LolayIlludTests;
 			sourceTree = "<group>";
 		};
+		9B37BDBF7D89927A22D134AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F38F2903F5B44B8F6EA80B4 /* Pods-LolayIllud.debug.xcconfig */,
+				89F728F0EBF541E0140384FE /* Pods-LolayIllud.release.xcconfig */,
+				7731C2A884227E81779D0E32 /* Pods-LolayIlludTests.debug.xcconfig */,
+				125B258B212C0BEB8CCEA423 /* Pods-LolayIlludTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -135,6 +167,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E6AAE4A222A326300EA9CFF /* Build configuration list for PBXNativeTarget "LolayIllud" */;
 			buildPhases = (
+				371B4583569FFFA0F07AB445 /* [CP] Check Pods Manifest.lock */,
 				4E6AAE31222A326200EA9CFF /* Headers */,
 				4E6AAE32222A326200EA9CFF /* Sources */,
 				4E6AAE33222A326200EA9CFF /* Frameworks */,
@@ -153,6 +186,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E6AAE4D222A326300EA9CFF /* Build configuration list for PBXNativeTarget "LolayIlludTests" */;
 			buildPhases = (
+				1E3AC6D77BCF051822DD4AE4 /* [CP] Check Pods Manifest.lock */,
 				4E6AAE3B222A326300EA9CFF /* Sources */,
 				4E6AAE3C222A326300EA9CFF /* Frameworks */,
 				4E6AAE3D222A326300EA9CFF /* Resources */,
@@ -222,6 +256,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E3AC6D77BCF051822DD4AE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LolayIlludTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		371B4583569FFFA0F07AB445 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LolayIllud-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4E6AAE32222A326200EA9CFF /* Sources */ = {
@@ -381,6 +454,7 @@
 		};
 		4E6AAE4B222A326300EA9CFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F38F2903F5B44B8F6EA80B4 /* Pods-LolayIllud.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -407,6 +481,7 @@
 		};
 		4E6AAE4C222A326300EA9CFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89F728F0EBF541E0140384FE /* Pods-LolayIllud.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -432,6 +507,7 @@
 		};
 		4E6AAE4E222A326300EA9CFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7731C2A884227E81779D0E32 /* Pods-LolayIlludTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +526,7 @@
 		};
 		4E6AAE4F222A326300EA9CFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 125B258B212C0BEB8CCEA423 /* Pods-LolayIlludTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
