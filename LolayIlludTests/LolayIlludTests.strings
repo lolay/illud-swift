@@ -1,6 +1,7 @@
 "LolayLocalizableTests.testString" = "xyz";
 "LolayLocalizedUILabelTests.testLabel" = "xyz";
 "LolayLocalizedUITextFieldTests.testLabel" = "xyz";
+"LolayLocalizedUITextFieldTests.testPlaceholder" = "xyz";
 "LolayLocalizedUIbuttonTests.applicationTitle" = "xyz-application";
 "LolayLocalizedUIbuttonTests.disabledTitle" = "xyz-disabled";
 "LolayLocalizedUIbuttonTests.focusedTitle" = "xyz-focused";

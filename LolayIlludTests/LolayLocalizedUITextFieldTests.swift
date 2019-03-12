@@ -24,10 +24,21 @@ class LolayLocalizedUITextFieldTests: XCTestCase {
         XCTAssertEqual(textField.text, "123")
         
         textField.textKey = "LolayLocalizedUITextFieldTests.testLabel"
+        textField.placeholderKey = "LolayLocalizedUITextFieldTests.testPlaceholder"
         textField.bundle = bundle
         XCTAssertEqual(textField.text, "abc")
+        XCTAssertEqual(textField.placeholder, "abc")
         
         textField.tableName = "LolayIlludTests"
         XCTAssertEqual(textField.text, "xyz")
+        XCTAssertEqual(textField.placeholder, "xyz")
+
+        // Check to ensure a nil textKey or placeholderKey works
+        textField.placeholderKey = nil
+        XCTAssertEqual(textField.text, "xyz")
+        
+        textField.textKey = nil
+        textField.placeholderKey = "LolayLocalizedUITextFieldTests.testPlaceholder"
+        XCTAssertEqual(textField.placeholder, "xyz")
     }
 }
