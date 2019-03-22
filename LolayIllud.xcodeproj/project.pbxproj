@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		02EA8475C76EAABCA73C1E73 /* libPods-LolayIlludTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CEBAC97A24B58DE5B400889 /* libPods-LolayIlludTests.a */; };
+		4E3A5E0A22445A7F001CBD69 /* LolayLocalizedUINavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A5E0922445A7F001CBD69 /* LolayLocalizedUINavigationItem.swift */; };
+		4E3A5E0C22445CE1001CBD69 /* LolayLocalizedUINavigationItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A5E0B22445CE1001CBD69 /* LolayLocalizedUINavigationItemTests.swift */; };
 		4E6AAE40222A326300EA9CFF /* LolayIllud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6AAE36222A326200EA9CFF /* LolayIllud.framework */; };
 		4E6AAE47222A326300EA9CFF /* LolayIllud.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E6AAE39222A326200EA9CFF /* LolayIllud.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E6AAE51222A330300EA9CFF /* LolayLocalizedUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6AAE50222A330300EA9CFF /* LolayLocalizedUILabel.swift */; };
@@ -36,6 +38,9 @@
 /* Begin PBXFileReference section */
 		125B258B212C0BEB8CCEA423 /* Pods-LolayIlludTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LolayIlludTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LolayIlludTests/Pods-LolayIlludTests.release.xcconfig"; sourceTree = "<group>"; };
 		3CEBAC97A24B58DE5B400889 /* libPods-LolayIlludTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LolayIlludTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E3A5E0922445A7F001CBD69 /* LolayLocalizedUINavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LolayLocalizedUINavigationItem.swift; sourceTree = "<group>"; };
+		4E3A5E0B22445CE1001CBD69 /* LolayLocalizedUINavigationItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LolayLocalizedUINavigationItemTests.swift; sourceTree = "<group>"; };
+		4E3A5E0D22446848001CBD69 /* LolayIllud.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = LolayIllud.podspec; sourceTree = "<group>"; };
 		4E58D8AE222D06EC00666395 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4E58D8B0222D06F300666395 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4E6AAE36222A326200EA9CFF /* LolayIllud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LolayIllud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +97,7 @@
 		4E6AAE2C222A326200EA9CFF = {
 			isa = PBXGroup;
 			children = (
+				4E3A5E0D22446848001CBD69 /* LolayIllud.podspec */,
 				4E58D8B0222D06F300666395 /* LICENSE */,
 				4E58D8AE222D06EC00666395 /* README.md */,
 				4E6AAE38222A326200EA9CFF /* LolayIllud */,
@@ -120,6 +126,7 @@
 				4E6AAE50222A330300EA9CFF /* LolayLocalizedUILabel.swift */,
 				4E6AAE5A222A38B300EA9CFF /* LolayLocalizedUITextField.swift */,
 				4E6AAE58222A369700EA9CFF /* LolayLocalizedUIButton.swift */,
+				4E3A5E0922445A7F001CBD69 /* LolayLocalizedUINavigationItem.swift */,
 			);
 			path = LolayIllud;
 			sourceTree = "<group>";
@@ -134,6 +141,7 @@
 				4E6AAE5D222A3CC200EA9CFF /* LolayLocalizedUILabelTests.swift */,
 				4E6AAE65222C566100EA9CFF /* LolayLocalizedUITextFieldTests.swift */,
 				4E6AAE67222C61BC00EA9CFF /* LolayLocalizedUIButtonTests.swift */,
+				4E3A5E0B22445CE1001CBD69 /* LolayLocalizedUINavigationItemTests.swift */,
 			);
 			path = LolayIlludTests;
 			sourceTree = "<group>";
@@ -305,6 +313,7 @@
 				4E6AAE5B222A38B300EA9CFF /* LolayLocalizedUITextField.swift in Sources */,
 				4E6AAE53222A33AD00EA9CFF /* LolayLocalizable.swift in Sources */,
 				4E6AAE51222A330300EA9CFF /* LolayLocalizedUILabel.swift in Sources */,
+				4E3A5E0A22445A7F001CBD69 /* LolayLocalizedUINavigationItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E6AAE5E222A3CC200EA9CFF /* LolayLocalizedUILabelTests.swift in Sources */,
+				4E3A5E0C22445CE1001CBD69 /* LolayLocalizedUINavigationItemTests.swift in Sources */,
 				4E6AAE66222C566100EA9CFF /* LolayLocalizedUITextFieldTests.swift in Sources */,
 				4E6AAE55222A34B400EA9CFF /* LolayLocalizableTests.swift in Sources */,
 				4E6AAE68222C61BC00EA9CFF /* LolayLocalizedUIButtonTests.swift in Sources */,

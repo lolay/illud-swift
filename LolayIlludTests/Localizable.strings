@@ -9,3 +9,7 @@
 "LolayLocalizedUIbuttonTests.normalTitle" = "abc-normal";
 "LolayLocalizedUIbuttonTests.reservedTitle" = "abc-reserved";
 "LolayLocalizedUIbuttonTests.selectedTitle" = "abc-selected";
+"LolayLocalizedUINavigationItemTests.title" = "abc-title";
+"LolayLocalizedUINavigationItemTests.prompt" = "abc-prompt";
+"LolayLocalizedUINavigationItemTests.backButton" = "abc-backButton";
+

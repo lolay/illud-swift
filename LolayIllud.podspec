@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'LolayIllud'
-  s.version = '1.1'
+  s.version = '1.2'
   s.license = {:type => 'Apache License, Version 2.0', :file => 'LICENSE'}
   s.summary = 'Lolay localization tools'
   s.homepage = 'https://github.com/lolay/illud-swift'
