@@ -31,4 +31,3 @@ class LolayLocalizedUIBarButtonItemTests: XCTestCase {
         XCTAssertEqual(item.title, "xyz")
     }
 }
-
