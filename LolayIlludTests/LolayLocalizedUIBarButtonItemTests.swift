@@ -13,14 +13,22 @@
 //  See the License for the specific language governing permissions and
 //  limitations under the License.
 //
+import XCTest
+@testable import LolayIllud
 
-public protocol LolayLocalizable {
-    var tableName: String { get }
-    var localized: String { get }
-}
-
-public extension String {
-    func localized(bundle: Bundle = .main, tableName: String = "Localizable", comment: String = "") -> String {
-        return NSLocalizedString(self, tableName: tableName, bundle: bundle, value: "**\(self)**", comment: comment)
+class LolayLocalizedUIBarButtonItemTests: XCTestCase {
+    func testLocalization() {
+        let bundle = Bundle(for: type(of: self))
+        let item = LolayLocalizedUIBarButtonItem(title: nil, style: .plain, target: nil, action: nil)
+        item.title = "123"
+        XCTAssertEqual(item.title, "123")
+        
+        item.titleKey = "LolayLocalizedUIBarButtonItemTests.testTitle"
+        item.bundle = bundle
+        XCTAssertEqual(item.title, "abc")
+        
+        item.tableName = "LolayIlludTests"
+        XCTAssertEqual(item.title, "xyz")
     }
 }
+

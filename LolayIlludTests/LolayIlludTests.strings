@@ -12,3 +12,4 @@
 "LolayLocalizedUINavigationItemTests.title" = "xyz-title";
 "LolayLocalizedUINavigationItemTests.prompt" = "xyz-prompt";
 "LolayLocalizedUINavigationItemTests.backButton" = "xyz-backButton";
+"LolayLocalizedUIBarButtonItemTests.testTitle" = "xyz";
