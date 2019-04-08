@@ -13,3 +13,6 @@
 "LolayLocalizedUINavigationItemTests.prompt" = "xyz-prompt";
 "LolayLocalizedUINavigationItemTests.backButton" = "xyz-backButton";
 "LolayLocalizedUIBarButtonItemTests.testTitle" = "xyz";
+"LolayLocalizedUISearchBarTests.text" = "xyz-text";
+"LolayLocalizedUISearchBarTests.placeholder" = "xyz-placeholder";
+"LolayLocalizedUISearchBarTests.prompt" = "xyz-prompt";

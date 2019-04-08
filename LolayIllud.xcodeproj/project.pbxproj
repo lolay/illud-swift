@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		02EA8475C76EAABCA73C1E73 /* libPods-LolayIlludTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CEBAC97A24B58DE5B400889 /* libPods-LolayIlludTests.a */; };
+		4E03043F225B18C800E91E5B /* LolayLocalizedUISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E03043E225B18C800E91E5B /* LolayLocalizedUISearchBar.swift */; };
+		4E030441225B1A0B00E91E5B /* LolayLocalizedUISearchBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E030440225B1A0B00E91E5B /* LolayLocalizedUISearchBarTests.swift */; };
 		4E237130224B0E7800679956 /* LolayLocalizedUIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E23712F224B0E7800679956 /* LolayLocalizedUIBarButtonItem.swift */; };
 		4E237132224B0FB800679956 /* LolayLocalizedUIBarButtonItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E237131224B0FB800679956 /* LolayLocalizedUIBarButtonItemTests.swift */; };
 		4E3A5E0A22445A7F001CBD69 /* LolayLocalizedUINavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A5E0922445A7F001CBD69 /* LolayLocalizedUINavigationItem.swift */; };
@@ -40,6 +42,8 @@
 /* Begin PBXFileReference section */
 		125B258B212C0BEB8CCEA423 /* Pods-LolayIlludTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LolayIlludTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LolayIlludTests/Pods-LolayIlludTests.release.xcconfig"; sourceTree = "<group>"; };
 		3CEBAC97A24B58DE5B400889 /* libPods-LolayIlludTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LolayIlludTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E03043E225B18C800E91E5B /* LolayLocalizedUISearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LolayLocalizedUISearchBar.swift; sourceTree = "<group>"; };
+		4E030440225B1A0B00E91E5B /* LolayLocalizedUISearchBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LolayLocalizedUISearchBarTests.swift; sourceTree = "<group>"; };
 		4E23712F224B0E7800679956 /* LolayLocalizedUIBarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LolayLocalizedUIBarButtonItem.swift; sourceTree = "<group>"; };
 		4E237131224B0FB800679956 /* LolayLocalizedUIBarButtonItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LolayLocalizedUIBarButtonItemTests.swift; sourceTree = "<group>"; };
 		4E3A5E0922445A7F001CBD69 /* LolayLocalizedUINavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LolayLocalizedUINavigationItem.swift; sourceTree = "<group>"; };
@@ -132,6 +136,7 @@
 				4E6AAE58222A369700EA9CFF /* LolayLocalizedUIButton.swift */,
 				4E3A5E0922445A7F001CBD69 /* LolayLocalizedUINavigationItem.swift */,
 				4E23712F224B0E7800679956 /* LolayLocalizedUIBarButtonItem.swift */,
+				4E03043E225B18C800E91E5B /* LolayLocalizedUISearchBar.swift */,
 			);
 			path = LolayIllud;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 				4E6AAE67222C61BC00EA9CFF /* LolayLocalizedUIButtonTests.swift */,
 				4E3A5E0B22445CE1001CBD69 /* LolayLocalizedUINavigationItemTests.swift */,
 				4E237131224B0FB800679956 /* LolayLocalizedUIBarButtonItemTests.swift */,
+				4E030440225B1A0B00E91E5B /* LolayLocalizedUISearchBarTests.swift */,
 			);
 			path = LolayIlludTests;
 			sourceTree = "<group>";
@@ -321,6 +327,7 @@
 				4E6AAE51222A330300EA9CFF /* LolayLocalizedUILabel.swift in Sources */,
 				4E237130224B0E7800679956 /* LolayLocalizedUIBarButtonItem.swift in Sources */,
 				4E3A5E0A22445A7F001CBD69 /* LolayLocalizedUINavigationItem.swift in Sources */,
+				4E03043F225B18C800E91E5B /* LolayLocalizedUISearchBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E237132224B0FB800679956 /* LolayLocalizedUIBarButtonItemTests.swift in Sources */,
+				4E030441225B1A0B00E91E5B /* LolayLocalizedUISearchBarTests.swift in Sources */,
 				4E6AAE5E222A3CC200EA9CFF /* LolayLocalizedUILabelTests.swift in Sources */,
 				4E3A5E0C22445CE1001CBD69 /* LolayLocalizedUINavigationItemTests.swift in Sources */,
 				4E6AAE66222C566100EA9CFF /* LolayLocalizedUITextFieldTests.swift in Sources */,
