@@ -14,6 +14,8 @@
 //  limitations under the License.
 //
 
+import Foundation
+
 public protocol LolayLocalizable {
     var tableName: String { get }
     var localized: String { get }

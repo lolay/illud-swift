@@ -14,36 +14,23 @@
 //  limitations under the License.
 //
 
-@IBDesignable public class LolayLocalizedUITextField: UITextField {
+import Foundation
+import UIKit
+
+@IBDesignable public class LolayLocalizedUILabel: UILabel {
     func localize() {
         guard self.textKey != nil else { return }
         
         if self.bundle != nil {
-            if tableName != nil {
-                if self.textKey != nil {
-                    self.text = self.textKey!.localized(bundle: self.bundle!, tableName: self.tableName!)
-                }
-                if self.placeholderKey != nil {
-                    self.placeholder = self.placeholderKey!.localized(bundle: self.bundle!, tableName: self.tableName!)
-                }
-            } else {
-                if self.textKey != nil {
-                    self.text = self.textKey!.localized(bundle: self.bundle!)
-                }
-                if self.placeholderKey != nil {
-                    self.placeholder = self.placeholderKey!.localized(bundle: self.bundle!)
-                }
-            }
-            
+            self.text = tableName != nil ? self.textKey?.localized(bundle: self.bundle!, tableName: self.tableName!) : self.textKey?.localized(bundle: self.bundle!)
         } else {
             self.text = tableName != nil ? self.textKey?.localized(tableName: self.tableName!) : self.textKey?.localized()
-            self.placeholder = tableName != nil ? self.placeholderKey?.localized(tableName: self.tableName!) : self.placeholderKey?.localized()
         }
     }
-    
+
     /**
      Localized key that will replace the text
-     */
+    */
     @IBInspectable public var textKey: String? {
         didSet {
             localize()
@@ -51,17 +38,8 @@
     }
     
     /**
-     Localized key that will replace the text
-     */
-    @IBInspectable public var placeholderKey: String? {
-        didSet {
-            localize()
-        }
-    }
-    
-    /**
      tableName to be used for localization
-     */
+    */
     @IBInspectable public var tableName: String? {
         didSet {
             localize()

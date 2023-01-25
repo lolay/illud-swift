@@ -15,6 +15,7 @@
 //
 
 import Foundation
+import UIKit
 
 class LolayLocalizedUIBarButtonItem: UIBarButtonItem {
     func localize() {

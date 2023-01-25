@@ -14,6 +14,9 @@
 //  limitations under the License.
 //
 
+import Foundation
+import UIKit
+
 @IBDesignable public class LolayLocalizedUIButton: UIButton {
     func localize() {
         for stateTitle in [(UIControl.State.application, self.applicationTitleKey), (.disabled, self.disabledTitleKey), (.focused, self.focusedTitleKey), (.highlighted, self.highlightedTitleKey), (.normal, self.normalTitleKey), (.reserved, self.reservedTitleKey), (.selected, self.selectedTitleKey)] {

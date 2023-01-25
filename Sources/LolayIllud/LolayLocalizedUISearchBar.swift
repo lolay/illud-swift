@@ -15,6 +15,7 @@
 //
 
 import Foundation
+import UIKit
 
 class LolayLocalizedUISearchBar: UISearchBar {
     private func localize() {
