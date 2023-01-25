@@ -18,7 +18,7 @@ import XCTest
 
 class LolayLocalizedUISearchBarTests: XCTestCase {
     func testLocalization() {
-        let bundle = Bundle(for: type(of: self))
+        let bundle = Bundle.module
         let searchBar = LolayLocalizedUISearchBar(frame: CGRect.zero)
         searchBar.bundle = bundle
         

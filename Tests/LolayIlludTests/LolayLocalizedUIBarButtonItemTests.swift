@@ -18,7 +18,7 @@ import XCTest
 
 class LolayLocalizedUIBarButtonItemTests: XCTestCase {
     func testLocalization() {
-        let bundle = Bundle(for: type(of: self))
+        let bundle = Bundle.module
         let item = LolayLocalizedUIBarButtonItem(title: nil, style: .plain, target: nil, action: nil)
         item.title = "123"
         XCTAssertEqual(item.title, "123")

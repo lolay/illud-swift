@@ -18,7 +18,7 @@ import XCTest
 
 class LolayLocalizableTests: XCTestCase {
     func testString() {
-        let bundle = Bundle(for: type(of: self))
+        let bundle = Bundle.module
         XCTAssertEqual("LolayLocalizableTests.testString".localized(bundle: bundle), "abc")
         XCTAssertEqual("LolayLocalizableTests.testString".localized(bundle: bundle, tableName: "LolayIlludTests"), "xyz")
     }

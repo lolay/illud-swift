@@ -18,7 +18,7 @@ import XCTest
 
 class LolayLocalizedUINavigationItemTests: XCTestCase {
     func testLocalization() {
-        let bundle = Bundle(for: type(of: self))
+        let bundle = Bundle.module
         let navItem = LolayLocalizedUINavigationItem(title: "")
         navItem.bundle = bundle
         

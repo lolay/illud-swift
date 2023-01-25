@@ -18,7 +18,7 @@ import XCTest
 
 class LolayLocalizedUILabelTests: XCTestCase {
     func testLocalization() {
-        let bundle = Bundle(for: type(of: self))
+        let bundle = Bundle.module
         let label = LolayLocalizedUILabel(frame: CGRect(origin: CGPoint(x: 0, y: 0), size: CGSize(width: 100, height: 100)))
         label.text = "123"
         XCTAssertEqual(label.text, "123")

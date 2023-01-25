@@ -39,7 +39,11 @@ let package = Package(
         ),
         .testTarget(
             name: "LolayIlludTests",
-            dependencies: ["LolayIllud"]
+            dependencies: ["LolayIllud"],
+            resources: [
+                .process("Localizable.strings"),
+                .process("LolayIlludTests.strings")
+            ]
         ),
     ],
     swiftLanguageVersions: [.v5]
