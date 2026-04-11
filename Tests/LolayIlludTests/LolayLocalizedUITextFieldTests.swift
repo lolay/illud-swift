@@ -1,5 +1,5 @@
 //
-//  Copyright © 2019, 2023 Lolay, Inc.
+//  Copyright © 2019-2026 Lolay, Inc.
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -16,6 +16,7 @@
 import XCTest
 @testable import LolayIllud
 
+#if canImport(UIKit)
 class LolayLocalizedUITextFieldTests: XCTestCase {
     func testLocalization() {
         let bundle = Bundle.module
@@ -42,3 +43,4 @@ class LolayLocalizedUITextFieldTests: XCTestCase {
         XCTAssertEqual(textField.placeholder, "xyz")
     }
 }
+#endif
