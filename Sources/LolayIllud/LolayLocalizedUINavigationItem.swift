@@ -16,7 +16,8 @@
 
 import Foundation
 
-#if canImport(UIKit)
+// watchOS ships UIKit but not its view and controller classes, and tvOS lacks UINavigationItem.prompt.
+#if canImport(UIKit) && !os(watchOS) && !os(tvOS)
 import UIKit
 
 public class LolayLocalizedUINavigationItem: UINavigationItem {

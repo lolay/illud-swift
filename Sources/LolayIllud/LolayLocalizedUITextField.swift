@@ -16,7 +16,8 @@
 
 import Foundation
 
-#if canImport(UIKit)
+// watchOS ships UIKit but not its view and controller classes.
+#if canImport(UIKit) && !os(watchOS)
 import UIKit
 
 @IBDesignable public class LolayLocalizedUITextField: UITextField {

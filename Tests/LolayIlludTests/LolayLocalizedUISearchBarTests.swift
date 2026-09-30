@@ -16,11 +16,11 @@
 import XCTest
 @testable import LolayIllud
 
-#if canImport(UIKit)
+#if canImport(UIKit) && !os(watchOS)
 @MainActor class LolayLocalizedUISearchBarTests: XCTestCase {
     func testLocalization() {
         let bundle = Bundle.module
-        let searchBar = LolayLocalizedUISearchBar(frame: CGRect.zero)
+        let searchBar = LolayLocalizedUISearchBar()
         searchBar.bundle = bundle
         
         searchBar.textKey = "LolayLocalizedUISearchBarTests.text"
