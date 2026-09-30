@@ -16,8 +16,8 @@
 import XCTest
 @testable import LolayIllud
 
-#if canImport(UIKit)
-class LolayLocalizedUILabelTests: XCTestCase {
+#if canImport(UIKit) && !os(watchOS)
+@MainActor class LolayLocalizedUILabelTests: XCTestCase {
     func testLocalization() {
         let bundle = Bundle.module
         let label = LolayLocalizedUILabel(frame: CGRect(origin: CGPoint(x: 0, y: 0), size: CGSize(width: 100, height: 100)))

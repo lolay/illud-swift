@@ -16,8 +16,8 @@
 import XCTest
 @testable import LolayIllud
 
-#if canImport(UIKit)
-class LolayLocalizedUIBarButtonItemTests: XCTestCase {
+#if canImport(UIKit) && !os(watchOS)
+@MainActor class LolayLocalizedUIBarButtonItemTests: XCTestCase {
     func testLocalization() {
         let bundle = Bundle.module
         let item = LolayLocalizedUIBarButtonItem(title: nil, style: .plain, target: nil, action: nil)
