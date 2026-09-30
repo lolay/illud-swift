@@ -17,7 +17,7 @@ import XCTest
 @testable import LolayIllud
 
 #if canImport(UIKit)
-class LolayLocalizedUISearchBarTests: XCTestCase {
+@MainActor class LolayLocalizedUISearchBarTests: XCTestCase {
     func testLocalization() {
         let bundle = Bundle.module
         let searchBar = LolayLocalizedUISearchBar(frame: CGRect.zero)

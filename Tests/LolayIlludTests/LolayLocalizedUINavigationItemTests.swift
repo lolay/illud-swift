@@ -17,7 +17,7 @@ import XCTest
 @testable import LolayIllud
 
 #if canImport(UIKit)
-class LolayLocalizedUINavigationItemTests: XCTestCase {
+@MainActor class LolayLocalizedUINavigationItemTests: XCTestCase {
     func testLocalization() {
         let bundle = Bundle.module
         let navItem = LolayLocalizedUINavigationItem(title: "")
